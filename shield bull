@@ -1,1 +1,20 @@
-Console.WriteLine("Hello, World!");
+Console.ForegroundColor = ConsoleColor.DarkMagenta;
+Console.WriteLine("Write a word to compare for palindrom:\n");
+Console.ResetColor();
+Console.ForegroundColor = ConsoleColor.Magenta;
+string input = Console.ReadLine();
+Console.ResetColor();
+string reversed = new string(input.Reverse().ToArray());
+
+if (input.Equals(reversed))
+        {
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("\nYes Miku");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+        }
+else
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("\nNo Miku");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+        }
