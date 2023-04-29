@@ -1,30 +1,35 @@
-﻿namespace Main
-{
-    public static class bar
+﻿using System;
+namespace variant2
+{ 
+    class Program
     {
-        public static void Main(string[] args) { }
-        public static bool Palindrome(string word)
+        static void Main(string[] args) 
         {
-         
-            string reversed = new string(word.Reverse().ToArray());
-            bool IsPalindrome= word.Equals(reversed);
+            Console.BackgroundColor = ConsoleColor.White;
+            Console.Clear();
+            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+            Console.WriteLine("Write a world to compare for palindrom:\n");
+            Console.ResetColor();
+            Console.ForegroundColor = ConsoleColor.DarkCyan;
+            Console.BackgroundColor = ConsoleColor.White;
+            string input = Console.ReadLine();
+            Console.ResetColor();
+            string reversed = new string(input.Reverse().ToArray());
 
-            if (IsPalindrome)
+            if (input.Equals(reversed))
             {
+                Console.BackgroundColor = ConsoleColor.White;
                 Console.ForegroundColor = ConsoleColor.Green;
-                Console.WriteLine("\nYes, Miku");
+                Console.WriteLine("\nYes, Miku <3");
                 Console.ForegroundColor = ConsoleColor.Yellow;
             }
             else
             {
+                Console.BackgroundColor = ConsoleColor.White;
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("\nNo, Miku");
-                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine("\nNo,Miku(");
+                Console.ForegroundColor= ConsoleColor.DarkYellow;
             }
-            return IsPalindrome;
         }
     }
 }
-    
-
-
