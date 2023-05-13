@@ -30,3 +30,14 @@ D:\насрано 1\WebApplication1.1\WebApplication1.1\obj\Debug\net6.0\refint\
 D:\насрано 1\WebApplication1.1\WebApplication1.1\obj\Debug\net6.0\WebApplication1.1.pdb
 D:\насрано 1\WebApplication1.1\WebApplication1.1\obj\Debug\net6.0\WebApplication1.1.genruntimeconfig.cache
 D:\насрано 1\WebApplication1.1\WebApplication1.1\obj\Debug\net6.0\ref\WebApplication1.1.dll
+D:\насрано 1\WebApplication1.1\WebApplication1.1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\насрано 1\WebApplication1.1\WebApplication1.1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\насрано 1\WebApplication1.1\WebApplication1.1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\насрано 1\WebApplication1.1\WebApplication1.1\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\насрано 1\WebApplication1.1\WebApplication1.1\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\насрано 1\WebApplication1.1\WebApplication1.1\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\насрано 1\WebApplication1.1\WebApplication1.1\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\насрано 1\WebApplication1.1\WebApplication1.1\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\насрано 1\WebApplication1.1\WebApplication1.1\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\насрано 1\WebApplication1.1\WebApplication1.1\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\насрано 1\WebApplication1.1\WebApplication1.1\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
